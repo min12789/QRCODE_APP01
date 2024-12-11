@@ -44,7 +44,7 @@ def main():
     # Size and border
     box_size = st.slider('QR Code Size', min_value=5, max_value=20, value=10)
     border = st.slider('Border Size', min_value=1, max_value=10, value=4)
-    # Generate QR Code
+  # Generate QR Code
     if st.button('Generate QR Code'):
         if qr_data:
             try:
@@ -78,3 +78,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
